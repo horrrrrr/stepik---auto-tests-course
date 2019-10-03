@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-driver = WebDriver(executable_path='C://selenium//chromedriver.exe')
+driver = WebDriver(executable_path='C:\Python33\chromedriver_win32\chromedriver')
 
 #Говорим WebDriver ждать 5 сек
 #driver.implicitly_wait(15)
@@ -372,11 +372,7 @@ def test24_step_8 ():
         time.sleep(10)
         driver.quit()
 
-
-
-
-
-
+50
 
 
 
